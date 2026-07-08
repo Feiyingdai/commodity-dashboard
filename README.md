@@ -26,7 +26,6 @@ The dashboard is designed around a few practical research questions:
 ├── data_pipeline/
 │   ├── fetch_us_grains_data.py      # Fetch raw and clean source data
 │   └── build_marts.py               # Build dashboard mart tables
-├── tableau/                         # Tableau notes and package builder
 ├── .env.example                     # API key template
 ├── .gitignore
 └── requirements.txt
