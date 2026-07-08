@@ -5,3 +5,6 @@ __pycache__/
 .DS_Store
 data/raw/
 10.14下午-聂波-农产品投研框架2025.pdf
+tableau/
+test.before_open_fix.ipynb
+test.ipynb

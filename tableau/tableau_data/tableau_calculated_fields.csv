@@ -1,6 +1,0 @@
-name,table,formula,description
-WASDE Latest Vintage,mart_wasde_balance,[column_order] = { FIXED [commodity] : MAX([column_order]) },Keeps the latest vintage row for each selected commodity.
-Stocks-to-Use Label,mart_wasde_balance,"STR(ROUND([stocks_to_use_pct], 1)) + ""%""",Display label for stocks-to-use KPI.
-Good Excellent Label,mart_crop_condition_weekly,"STR(ROUND([good_excellent], 1)) + ""%""",Display label for crop condition KPI.
-Latest Week,mart_crop_condition_weekly,"[week_ending] = { FIXED [commodity], [state_alpha] : MAX([week_ending]) }",Flags the latest available crop condition week by commodity and state.
-Latest Drought Week,mart_drought_weekly,[mapdate] = { FIXED [state_alpha] : MAX([mapdate]) },Flags the latest available drought week by state.
