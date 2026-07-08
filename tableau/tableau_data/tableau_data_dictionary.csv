@@ -1,0 +1,104 @@
+table,field,description
+dim_commodity,commodity,Commodity code. CORN or SOYBEANS.
+dim_commodity,commodity_label,
+dim_commodity,commodity_color,
+dim_state,state_alpha,Two-letter U.S. state abbreviation. US means national total.
+dim_state,state_name,State display name from NASS.
+dim_state,is_national,
+mart_crop_condition_weekly,commodity,Commodity code. CORN or SOYBEANS.
+mart_crop_condition_weekly,year,Crop year / calendar year as reported by source.
+mart_crop_condition_weekly,week_ending,Weekly NASS crop progress / condition report date.
+mart_crop_condition_weekly,agg_level,"NASS aggregation level, usually NATIONAL or STATE."
+mart_crop_condition_weekly,state_alpha,Two-letter U.S. state abbreviation. US means national total.
+mart_crop_condition_weekly,state_name,State display name from NASS.
+mart_crop_condition_weekly,excellent,
+mart_crop_condition_weekly,good,
+mart_crop_condition_weekly,fair,
+mart_crop_condition_weekly,poor,
+mart_crop_condition_weekly,very_poor,
+mart_crop_condition_weekly,good_excellent,Crop condition percent rated good plus excellent.
+mart_crop_condition_weekly,poor_very_poor,Crop condition percent rated poor plus very poor.
+mart_crop_condition_weekly,condition_score_1_5,
+mart_crop_condition_weekly,condition_index_0_100,Weighted condition score scaled 0-100.
+mart_crop_condition_weekly,load_time,
+mart_crop_progress_weekly,commodity,Commodity code. CORN or SOYBEANS.
+mart_crop_progress_weekly,year,Crop year / calendar year as reported by source.
+mart_crop_progress_weekly,week_ending,Weekly NASS crop progress / condition report date.
+mart_crop_progress_weekly,agg_level,"NASS aggregation level, usually NATIONAL or STATE."
+mart_crop_progress_weekly,state_alpha,Two-letter U.S. state abbreviation. US means national total.
+mart_crop_progress_weekly,state_name,State display name from NASS.
+mart_crop_progress_weekly,stage,"Crop progress stage, normalized from NASS unit_desc."
+mart_crop_progress_weekly,pct,Percent complete for crop progress stage.
+mart_crop_progress_weekly,load_time,
+mart_drought_weekly,mapdate,U.S. Drought Monitor map date.
+mart_drought_weekly,state_alpha,Two-letter U.S. state abbreviation. US means national total.
+mart_drought_weekly,none,
+mart_drought_weekly,d0,
+mart_drought_weekly,d1,
+mart_drought_weekly,d2,
+mart_drought_weekly,d3,
+mart_drought_weekly,d4,
+mart_drought_weekly,d0_plus,
+mart_drought_weekly,d1_plus,Percent area in D1 or worse drought.
+mart_drought_weekly,d2_plus,Percent area in D2 or worse drought.
+mart_drought_weekly,d3_plus,
+mart_drought_weekly,d4_plus,
+mart_drought_weekly,d0_only,
+mart_drought_weekly,d1_only,
+mart_drought_weekly,d2_only,
+mart_drought_weekly,d3_only,
+mart_drought_weekly,d4_only,
+mart_drought_weekly,dsci,Drought Severity and Coverage Index proxy from cumulative drought buckets.
+mart_drought_weekly,validstart,
+mart_drought_weekly,validend,
+mart_ethanol_weekly,period,EIA weekly period date.
+mart_ethanol_weekly,ethanol_production_kbd,Weekly U.S. ethanol production in thousand barrels per day.
+mart_ethanol_weekly,ethanol_stocks_kbbl,Weekly U.S. ethanol stocks in thousand barrels.
+mart_ethanol_weekly,implied_corn_use_mbu,Estimated weekly corn use for ethanol in million bushels.
+mart_stocks_quarterly,commodity,Commodity code. CORN or SOYBEANS.
+mart_stocks_quarterly,year,Crop year / calendar year as reported by source.
+mart_stocks_quarterly,stock_date,Quarterly NASS grain stock date.
+mart_stocks_quarterly,stock_month,
+mart_stocks_quarterly,reference_period_desc,
+mart_stocks_quarterly,agg_level,"NASS aggregation level, usually NATIONAL or STATE."
+mart_stocks_quarterly,state_alpha,Two-letter U.S. state abbreviation. US means national total.
+mart_stocks_quarterly,state_name,State display name from NASS.
+mart_stocks_quarterly,stocks_bu,
+mart_stocks_quarterly,stocks_mbu,Grain stocks in million bushels.
+mart_stocks_quarterly,load_time,
+mart_supply_annual,commodity,Commodity code. CORN or SOYBEANS.
+mart_supply_annual,year,Crop year / calendar year as reported by source.
+mart_supply_annual,agg_level,"NASS aggregation level, usually NATIONAL or STATE."
+mart_supply_annual,state_alpha,Two-letter U.S. state abbreviation. US means national total.
+mart_supply_annual,state_name,State display name from NASS.
+mart_supply_annual,planted_acres,
+mart_supply_annual,planted_acres_mil,
+mart_supply_annual,harvested_acres,
+mart_supply_annual,harvested_acres_mil,
+mart_supply_annual,yield_bu_per_acre,
+mart_supply_annual,production_bu,
+mart_supply_annual,production_mbu,
+mart_supply_annual,latest_load_time,
+mart_wasde_balance,report_month,WASDE report month parsed from latest report.
+mart_wasde_balance,commodity,Commodity code. CORN or SOYBEANS.
+mart_wasde_balance,marketing_year,"WASDE marketing year, e.g. 2026/27."
+mart_wasde_balance,estimate_type,
+mart_wasde_balance,vintage,"WASDE vintage column, e.g. current, May, Jun."
+mart_wasde_balance,column_order,
+mart_wasde_balance,area_planted,
+mart_wasde_balance,area_harvested,
+mart_wasde_balance,yield_per_harvested_acre,
+mart_wasde_balance,production,WASDE production in million bushels.
+mart_wasde_balance,imports,
+mart_wasde_balance,supply_total,
+mart_wasde_balance,feed_and_residual,
+mart_wasde_balance,food_seedand_industrial,
+mart_wasde_balance,ethanol_and_by_products,
+mart_wasde_balance,crushings,
+mart_wasde_balance,domestic_total,
+mart_wasde_balance,exports,WASDE exports in million bushels.
+mart_wasde_balance,use_total,
+mart_wasde_balance,ending_stocks,WASDE ending stocks in million bushels.
+mart_wasde_balance,stocks_to_use,
+mart_wasde_balance,avg_farmprice_bu,
+mart_wasde_balance,stocks_to_use_pct,WASDE stocks-to-use ratio in percent.

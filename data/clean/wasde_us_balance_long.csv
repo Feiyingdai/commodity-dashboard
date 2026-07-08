@@ -1,0 +1,117 @@
+source_file,report_month,commodity,marketing_year,estimate_type,vintage,column_order,metric,metric_key,unit,value
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Area Harvested,area_harvested,Million Acres,83.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Area Planted,area_planted,Million Acres,90.9
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Avg.FarmPrice ($/bu),avg_farmprice_bu,$/bu,4.24
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Beginning Stocks,beginning_stocks,Million Bushels,1763.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,"Domestic, Total",domestic_total,Million Bushels,12267.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Ending Stocks,ending_stocks,Million Bushels,1551.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Ethanol & by-products,ethanol_and_by_products,Million Bushels,5436.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Exports,exports,Million Bushels,2858.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Feed and Residual,feed_and_residual,Million Bushels,5454.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,"Food,Seed& Industrial",food_seedand_industrial,Million Bushels,6814.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Imports,imports,Million Bushels,22.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Production,production,Million Bushels,14892.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,"Supply, Total",supply_total,Million Bushels,16677.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,"Use, Total",use_total,Million Bushels,15126.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,Yield per Harvested Acre,yield_per_harvested_acre,Bushels,179.3
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Area Harvested,area_harvested,Million Acres,91.3
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Area Planted,area_planted,Million Acres,98.8
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Avg.FarmPrice ($/bu),avg_farmprice_bu,$/bu,4.15
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Beginning Stocks,beginning_stocks,Million Bushels,1551.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,"Domestic, Total",domestic_total,Million Bushels,13130.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Ending Stocks,ending_stocks,Million Bushels,2145.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Ethanol & by-products,ethanol_and_by_products,Million Bushels,5575.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Exports,exports,Million Bushels,3325.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Feed and Residual,feed_and_residual,Million Bushels,6200.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,"Food,Seed& Industrial",food_seedand_industrial,Million Bushels,6930.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Imports,imports,Million Bushels,28.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Production,production,Million Bushels,17021.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,"Supply, Total",supply_total,Million Bushels,18600.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,"Use, Total",use_total,Million Bushels,16455.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,Yield per Harvested Acre,yield_per_harvested_acre,Bushels,186.5
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Area Harvested,area_harvested,Million Acres,87.4
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Area Planted,area_planted,Million Acres,95.3
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Avg.FarmPrice ($/bu),avg_farmprice_bu,$/bu,4.4
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Beginning Stocks,beginning_stocks,Million Bushels,2142.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,"Domestic, Total",domestic_total,Million Bushels,13055.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Ending Stocks,ending_stocks,Million Bushels,1957.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Ethanol & by-products,ethanol_and_by_products,Million Bushels,5600.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Exports,exports,Million Bushels,3150.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Feed and Residual,feed_and_residual,Million Bushels,6100.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,"Food,Seed& Industrial",food_seedand_industrial,Million Bushels,6955.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Imports,imports,Million Bushels,25.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Production,production,Million Bushels,15995.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,"Supply, Total",supply_total,Million Bushels,18162.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,"Use, Total",use_total,Million Bushels,16205.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,Yield per Harvested Acre,yield_per_harvested_acre,Bushels,183.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Area Harvested,area_harvested,Million Acres,87.4
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Area Planted,area_planted,Million Acres,95.3
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Avg.FarmPrice ($/bu),avg_farmprice_bu,$/bu,4.4
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Beginning Stocks,beginning_stocks,Million Bushels,2145.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,"Domestic, Total",domestic_total,Million Bushels,13055.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Ending Stocks,ending_stocks,Million Bushels,1960.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Ethanol & by-products,ethanol_and_by_products,Million Bushels,5600.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Exports,exports,Million Bushels,3150.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Feed and Residual,feed_and_residual,Million Bushels,6100.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,"Food,Seed& Industrial",food_seedand_industrial,Million Bushels,6955.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Imports,imports,Million Bushels,25.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Production,production,Million Bushels,15995.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,"Supply, Total",supply_total,Million Bushels,18165.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,"Use, Total",use_total,Million Bushels,16205.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,Yield per Harvested Acre,yield_per_harvested_acre,Bushels,183.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Area Harvested,area_harvested,Million Acres,86.2
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Area Planted,area_planted,Million Acres,87.3
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Avg.FarmPrice ($/bu),avg_farmprice_bu,$/bu,10.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Beginning Stocks,beginning_stocks,Million Bushels,342.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Crushings,crushings,Million Bushels,2445.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Ending Stocks,ending_stocks,Million Bushels,325.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Exports,exports,Million Bushels,1882.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Imports,imports,Million Bushels,29.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Production,production,Million Bushels,4374.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Residual,residual,Million Bushels,23.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Seed,seed,Million Bushels,70.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,"Supply, Total",supply_total,Million Bushels,4746.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,"Use, Total",use_total,Million Bushels,4421.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,Yield per Harvested Acre,yield_per_harvested_acre,Bushels,50.7
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Area Harvested,area_harvested,Million Acres,80.4
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Area Planted,area_planted,Million Acres,81.2
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Avg.FarmPrice ($/bu),avg_farmprice_bu,$/bu,10.4
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Beginning Stocks,beginning_stocks,Million Bushels,325.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Crushings,crushings,Million Bushels,2650.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Ending Stocks,ending_stocks,Million Bushels,340.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Exports,exports,Million Bushels,1510.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Imports,imports,Million Bushels,25.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Production,production,Million Bushels,4262.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Residual,residual,Million Bushels,39.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Seed,seed,Million Bushels,73.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,"Supply, Total",supply_total,Million Bushels,4612.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,"Use, Total",use_total,Million Bushels,4272.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,Yield per Harvested Acre,yield_per_harvested_acre,Bushels,53.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Area Harvested,area_harvested,Million Acres,83.7
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Area Planted,area_planted,Million Acres,84.7
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Avg.FarmPrice ($/bu),avg_farmprice_bu,$/bu,11.4
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Beginning Stocks,beginning_stocks,Million Bushels,340.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Crushings,crushings,Million Bushels,2750.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Ending Stocks,ending_stocks,Million Bushels,310.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Exports,exports,Million Bushels,1630.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Imports,imports,Million Bushels,25.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Production,production,Million Bushels,4435.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Residual,residual,Million Bushels,38.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Seed,seed,Million Bushels,72.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,"Supply, Total",supply_total,Million Bushels,4800.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,"Use, Total",use_total,Million Bushels,4490.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,Yield per Harvested Acre,yield_per_harvested_acre,Bushels,53.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Area Harvested,area_harvested,Million Acres,83.7
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Area Planted,area_planted,Million Acres,84.7
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Avg.FarmPrice ($/bu),avg_farmprice_bu,$/bu,11.4
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Beginning Stocks,beginning_stocks,Million Bushels,340.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Crushings,crushings,Million Bushels,2750.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Ending Stocks,ending_stocks,Million Bushels,310.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Exports,exports,Million Bushels,1630.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Imports,imports,Million Bushels,25.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Production,production,Million Bushels,4435.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Residual,residual,Million Bushels,38.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Seed,seed,Million Bushels,72.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,"Supply, Total",supply_total,Million Bushels,4800.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,"Use, Total",use_total,Million Bushels,4490.0
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,Yield per Harvested Acre,yield_per_harvested_acre,Bushels,53.0

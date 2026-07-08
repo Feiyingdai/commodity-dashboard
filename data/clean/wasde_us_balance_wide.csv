@@ -1,0 +1,9 @@
+source_file,report_month,commodity,marketing_year,estimate_type,vintage,column_order,area_harvested,area_planted,avg_farmprice_bu,beginning_stocks,crushings,domestic_total,ending_stocks,ethanol_and_by_products,exports,feed_and_residual,food_seedand_industrial,imports,production,residual,seed,supply_total,use_total,yield_per_harvested_acre,stocks_to_use
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2024/25,reported,current,1,83.0,90.9,4.24,1763.0,,12267.0,1551.0,5436.0,2858.0,5454.0,6814.0,22.0,14892.0,,,16677.0,15126.0,179.3,0.1025386751289171
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2025/26,estimate,current,2,91.3,98.8,4.15,1551.0,,13130.0,2145.0,5575.0,3325.0,6200.0,6930.0,28.0,17021.0,,,18600.0,16455.0,186.5,0.13035551504102097
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,May,3,87.4,95.3,4.4,2142.0,,13055.0,1957.0,5600.0,3150.0,6100.0,6955.0,25.0,15995.0,,,18162.0,16205.0,183.0,0.12076519592718298
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,CORN,2026/27,projection,Jun,4,87.4,95.3,4.4,2145.0,,13055.0,1960.0,5600.0,3150.0,6100.0,6955.0,25.0,15995.0,,,18165.0,16205.0,183.0,0.12095032397408208
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2024/25,reported,current,1,86.2,87.3,10.0,342.0,2445.0,,325.0,,1882.0,,,29.0,4374.0,23.0,70.0,4746.0,4421.0,50.7,0.0735127799140466
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2025/26,estimate,current,2,80.4,81.2,10.4,325.0,2650.0,,340.0,,1510.0,,,25.0,4262.0,39.0,73.0,4612.0,4272.0,53.0,0.07958801498127341
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,May,3,83.7,84.7,11.4,340.0,2750.0,,310.0,,1630.0,,,25.0,4435.0,38.0,72.0,4800.0,4490.0,53.0,0.06904231625835189
+data/raw/wasde/latest/wasde0626v2.txt,June 2026,SOYBEANS,2026/27,projection,Jun,4,83.7,84.7,11.4,340.0,2750.0,,310.0,,1630.0,,,25.0,4435.0,38.0,72.0,4800.0,4490.0,53.0,0.06904231625835189
