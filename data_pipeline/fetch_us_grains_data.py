@@ -213,11 +213,20 @@ def fetch_bytes(url: str, timeout: int = 30, retries: int = 2) -> bytes:
             req = Request(url, headers=headers)
             with urlopen(req, timeout=timeout) as response:
                 return response.read()
-        except (HTTPError, URLError, TimeoutError) as exc:
+        except HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace").strip()
+            detail = f"HTTP Error {exc.code}: {exc.reason}"
+            if body:
+                detail = f"{detail} - {body[:500]}"
+            last_error = RuntimeError(detail)
+            if attempt < retries:
+                time.sleep(1.5 * attempt)
+        except (URLError, TimeoutError) as exc:
             last_error = exc
             if attempt < retries:
                 time.sleep(1.5 * attempt)
-    raise RuntimeError(f"Failed to fetch {url}: {last_error}") from last_error
+    safe_url = re.sub(r"([?&]key=)[^&]+", r"\1<redacted>", url)
+    raise RuntimeError(f"Failed to fetch {safe_url}: {last_error}") from last_error
 
 
 def fetch_text(url: str) -> str:

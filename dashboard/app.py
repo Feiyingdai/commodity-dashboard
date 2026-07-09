@@ -1044,7 +1044,7 @@ def balance_comparison_table(row: pd.Series) -> pd.DataFrame:
             "Model Source": "Balance formula",
         },
         {
-            "Metric": "Stocks-to-Use",
+            "Metric": "Ending Stocks-to-Use",
             "My Model": fmt_number(row.get("my_stocks_to_use_pct"), "%", 1),
             "WASDE": fmt_number(row.get("stocks_to_use_pct"), "%", 1),
             "Difference": fmt_signed_number(row.get("stocks_to_use_pct_gap"), " pp", 1)
@@ -1071,7 +1071,7 @@ def balance_snapshot_table(row: pd.Series, prior_row: pd.Series) -> pd.DataFrame
         ("Supply Total", "supply_total", " mbu", 0, False, 5),
         ("Total Use", "use_total", " mbu", 0, True, 5),
         ("Ending Stocks", "ending_stocks", " mbu", 0, False, 5),
-        ("Stocks-to-Use", "stocks_to_use_pct", "%", 1, False, 0.05),
+        ("Ending Stocks-to-Use", "stocks_to_use_pct", "%", 1, False, 0.05),
         ("Average Farm Price", "avg_farmprice_bu", " $/bu", 2, True, 0.01),
     ]
     rows = []
@@ -1751,7 +1751,7 @@ def build_balance_signal_cards(
         ("Balance", "WASDE Production", "production", " mbu", 0, False, 5),
         ("Balance", "WASDE Total Use", "use_total", " mbu", 0, True, 5),
         ("Balance", "WASDE Ending Stocks", "ending_stocks", " mbu", 0, False, 5),
-        ("Balance", "Stocks-to-Use", "stocks_to_use_pct", "%", 1, False, 0.05),
+        ("Balance", "WASDE Ending Stocks-to-Use", "stocks_to_use_pct", "%", 1, False, 0.05),
     ]
     for module, metric, column, suffix, decimals, tight_when_positive, threshold in balance_specs:
         change = row_change(balance_row, prior_row, column)
@@ -2084,8 +2084,8 @@ with tab_balance:
         st.markdown(
             f"<div class='small-muted'>Balance logic: production uses "
             f"{balance_row.get('production_source', '-')}; demand uses "
-            f"{balance_row.get('use_source', '-')}. Ending stocks and stocks-to-use are "
-            "recalculated from the balance sheet.</div>",
+            f"{balance_row.get('use_source', '-')}. Ending stocks and ending stocks-to-use are "
+            "recalculated from projected marketing-year ending stocks and annual use.</div>",
             unsafe_allow_html=True,
         )
 
@@ -2113,7 +2113,14 @@ with tab_balance:
             signal_table["Marker"] = signal_table["Marker"].map(signal_badge)
             st.dataframe(signal_table, width="stretch", hide_index=True)
 
-        st.markdown("#### Stocks-to-Use Benchmark")
+        st.markdown("#### Ending Stocks-to-Use Benchmark")
+        st.markdown(
+            "<div class='small-muted'>This is the balance-sheet ratio: "
+            "marketing-year ending stocks divided by annual total use. It is not "
+            "the same as the Stocks tab coverage ratio, which uses the latest "
+            "reported NASS inventory date.</div>",
+            unsafe_allow_html=True,
+        )
         stu_history = balance_model[
             [
                 "balance_label",
@@ -2141,7 +2148,7 @@ with tab_balance:
             "series",
             height=300,
             x_title="Marketing Year",
-            y_title="Stocks-to-Use (%)",
+            y_title="Ending Stocks-to-Use (%)",
             color_title="Series",
             y_zero=False,
             x_label_angle=0,
@@ -2523,7 +2530,7 @@ with tab_stocks:
             and pd.notna(us_stock_same_date.iloc[-1]["stocks_mbu"])
             else pd.NA
         )
-        stocks_to_use_pct = (
+        reported_stock_use_coverage_pct = (
             latest_stock.get("stocks_mbu") / latest_wasde.get("use_total") * 100
             if state == "US"
             and pd.notna(latest_stock.get("stocks_mbu"))
@@ -2547,8 +2554,18 @@ with tab_stocks:
             fmt_number(latest_stock.get("on_farm_share_pct"), "%", 1),
         )
         k4.metric(
-            "Stocks / WASDE Use" if state == "US" else "State Share of U.S.",
-            fmt_number(stocks_to_use_pct if state == "US" else state_share_pct, "%", 1),
+            "Reported Stocks / Annual Use" if state == "US" else "State Share of U.S.",
+            fmt_number(
+                reported_stock_use_coverage_pct if state == "US" else state_share_pct,
+                "%",
+                1,
+            ),
+            help=(
+                "Latest NASS reported stocks divided by latest WASDE annual total use. "
+                "This is an inventory coverage ratio, not WASDE ending stocks-to-use."
+            )
+            if state == "US"
+            else None,
         )
 
         stock_year_options = sorted(stocks_scope["stock_date"].dt.year.dropna().astype(int).unique())
@@ -3026,7 +3043,10 @@ with tab_wasde:
         w1.metric("WASDE Production", fmt_number(latest_wasde.get("production"), " mbu", 0))
         w2.metric("WASDE Use Total", fmt_number(latest_wasde.get("use_total"), " mbu", 0))
         w3.metric("WASDE Ending Stocks", fmt_number(latest_wasde.get("ending_stocks"), " mbu", 0))
-        w4.metric("WASDE Stocks-to-Use", fmt_number(latest_wasde.get("stocks_to_use_pct"), "%", 1))
+        w4.metric(
+            "WASDE Ending Stocks-to-Use",
+            fmt_number(latest_wasde.get("stocks_to_use_pct"), "%", 1),
+        )
 
         st.markdown(
             f"<div class='small-muted'>WASDE {latest_wasde.get('report_month', '-')}; "
